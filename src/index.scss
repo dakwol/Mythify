@@ -1,2 +1,6 @@
 @use "./scss/" as *;
 
+body{
+    background-color: $main_bg;
+    color: $text;
+}

@@ -1,0 +1,18 @@
+<svg id="eKLVQyEsgd11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" shape-rendering="geometricPrecision"
+    text-rendering="geometricPrecision" project-id="70e5a5dd95a04a30b862d3e1a84331e3"
+    export-id="c394fec1a77642468389a3646b0a44d9" cached="false">
+    <defs>
+        <radialGradient id="eKLVQyEsgd13-stroke" cx="0" cy="0" r="0.781541" spreadMethod="pad"
+            gradientUnits="objectBoundingBox"
+            gradientTransform="matrix(0.901697 -0.432369 0.517948 1.08017 0 0.720954)">
+            <stop id="eKLVQyEsgd13-stroke-0" offset="0%" stop-color="#ffc589" />
+            <stop id="eKLVQyEsgd13-stroke-1" offset="100%" stop-color="#e2994e" />
+        </radialGradient>
+    </defs>
+    <g transform="matrix(.1 0 0-.1 0 200)">
+        <path
+            d="M4180,5516v-734l53-58c264-289,869-944,872-944c2,0,152,161,332,357c180,197,375,409,433,472s117,128,132,145l27,31v735v735l-42-46c-23-25-154-169-292-320-137-150-252-276-255-279s-79-85-169-182c-89-98-167-178-171-178-8,0-67,64-575,625-114,127-239,263-276,303l-69,72v-734Z"
+            fill="none" stroke="url(#eKLVQyEsgd13-stroke)" stroke-width="200" stroke-linecap="round"
+            stroke-miterlimit="105" />
+    </g>
+</svg>
