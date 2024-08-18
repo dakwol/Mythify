@@ -1,0 +1,6 @@
+@use "../../scss/" as *;
+
+.headerContainer {
+    background-color: $header_bg;
+    padding: 12px 24px;
+}
