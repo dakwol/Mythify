@@ -24,14 +24,17 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Build dependencies
+        run: npm run build
+
       # - name: Run tests
       #   run: npm test
 
-      - name: Deploy
-        env:
-          PUSHER_APP_ID: ${{ secrets.PUSHER_APP_ID }}
-          PUSHER_KEY: ${{ secrets.PUSHER_KEY }}
-          PUSHER_SECRET: ${{ secrets.PUSHER_SECRET }}
+      # - name: Deploy
+      #   env:
+      #     PUSHER_APP_ID: ${{ secrets.PUSHER_APP_ID }}
+      #     PUSHER_KEY: ${{ secrets.PUSHER_KEY }}
+      #     PUSHER_SECRET: ${{ secrets.PUSHER_SECRET }}
         run: |
           # Пример команды для деплоя
           npm run deploy
