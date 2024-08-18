@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "gensvg": "npx @svgr/cli --icon --typescript --out-dir src/assets/svgsComponent src/assets/svgs",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "jest"
   },
   "dependencies": {
     "@babel/core": "^7.25.2",
@@ -37,6 +38,7 @@
     "@storybook/react-vite": "^8.2.9",
     "@storybook/test": "^8.2.9",
     "@types/fs-extra": "^11.0.4",
+    "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
@@ -49,6 +51,8 @@
     "globals": "^15.9.0",
     "storybook": "^8.2.9",
     "ts-node": "^10.9.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
     "vite": "^5.4.1"
